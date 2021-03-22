@@ -21,6 +21,7 @@ const Navigation = ({ siteTitle }) => {
     <Wrapper>
       <Container>
         <MenuLink to="/">{siteTitle}</MenuLink>
+        <MenuLink to="/contact">Contact</MenuLink>
         <MenuLink to="/cart">
           {hasItems && <CartCounter>{quantity}</CartCounter>}
           Cart 🛍
